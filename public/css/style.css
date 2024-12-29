@@ -1,0 +1,100 @@
+/* navbar start */
+.navbar-scrolled {
+    background-color: #2196F3;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-scrolled a {
+    color: #ffffff;
+}
+
+/* Styling untuk logo yang berubah menjadi teks saat di-scroll */
+.navbar-scrolled .navbar-logo {
+    display: none;
+}
+
+.navbar-scrolled .navbar-text {
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar-scrolled .navbar-btn {
+    background-color: white;
+    color: #2196F3;
+}
+/* navbar end */
+
+/* Navbar */
+nav {
+    z-index: 50;
+}
+
+/* Particles Container */
+#particles-js {
+    background: transparent;
+}
+
+/* Hero Section */
+.hero-section {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* Interactive Background */
+#interactive-bg {
+    background: linear-gradient(45deg, #1a365d, #2563eb);
+}
+
+/* Stars Background */
+#stars-bg {
+    background: #0f172a;
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Card Hover Effects */
+.feature-card {
+    transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+}
+
+/* Bus Showcase Scrolling */
+.snap-x {
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+}
+
+.snap-x > * {
+    scroll-snap-align: start;
+}
+
+/* Hide Scrollbar but allow scrolling */
+.overflow-x-auto {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.overflow-x-auto::-webkit-scrollbar {
+    display: none;
+}
+

@@ -25,12 +25,12 @@ Route::get('/invoice/{invoice}/download', [InvoiceController::class, 'downloadPd
 //     return inertia('Home');
 // });
 // menambahkan params
-Route::get('/', function () {
-    return inertia('Home', ['nama' => 'Po. Rizky Putra 168']);
-});
+// Route::get('/', function () {
+//     return inertia('Home', ['nama' => 'Po. Rizky Putra 168']);
+// });
 // atau seperti ini
 // Route::inertia('/', 'Home');
-Route::inertia('/about', 'About');
+// Route::inertia('/about', 'About');
 
 
 // File routes/web.php
